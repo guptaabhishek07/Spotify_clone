@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Island Moments', sans-serif;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    height: 60px;
+    color: white;
+}
+
+
+li{
+    padding: 0 12px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.brand img{
+    width: 105px;
+    padding: 0 10px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Island Moments', sans-serif;
+    display: flex;
+    margin: 13px auto;
+    width: 92%;
+    border-radius: 15px;
+    padding: 30px;
+    background-image: url('assets/sp5.jpg');
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: #fff;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 13px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemcontainer{
+    margin-top: 30px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    font-weight:bold;
+}
+
+.songItem img{
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 30px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 5vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.7ms ease-in;
+    font-family: sans-serif;
+}
